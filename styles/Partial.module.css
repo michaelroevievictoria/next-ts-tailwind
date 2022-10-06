@@ -1,0 +1,28 @@
+.layout_main {}
+
+
+.footer_main {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+    .footer_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.navbar_main {
+    display: flex;
+
+
+}
+
+.navbar_menu_main {
+    margin-left: auto;
+    display: flex;
+    gap: 10px
+}
