@@ -1,6 +1,6 @@
 import Header from "./Partial/Header"
 import Footer from "./Partial/Footer"
-// import Navbar from "./Partial/Navbar"
+import Navbar from "./Partial/Navbar"
 import React from "react"
 import styles from '../styles/Partial.module.css'
 import type { NextPage } from 'next'
@@ -15,7 +15,7 @@ const Layout: NextPage<Props> = ({ children }) => {
         <React.Fragment>
             <Header />
             <div className={styles.layout_main}>
-                {/* <Navbar /> */}
+                <Navbar />
                 {children}
                 <Footer />
             </div>

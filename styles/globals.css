@@ -72,6 +72,10 @@ a {
 }
 
 
+.custom-container {
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
