@@ -1,4 +1,4 @@
-import styles from '../../styles/Partial.module.css'
+import styles from '../../../styles/Partial.module.css'
 import FooterSection from '../FooterSection/FooterSections'
 
 

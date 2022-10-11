@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux"
-import { decrement, increment, selectValue } from "../../redux/slices/counter"
+import { decrement, increment, selectValue } from "../../../redux/slices/counter"
 
 const ReduxTestRun = () => {
     const count = useSelector(selectValue)

@@ -8,7 +8,7 @@ import { faInstagram, faFacebookF, faTwitter } from '@fortawesome/free-brands-sv
 import logo from '../../assets/images/logo/dodo_mandanas_logo.png'
 import { useRouter } from "next/router";
 import Link from "next/link";
-import aidBuilderLogo from '../../assets/images/logo/aid-builder-logo.png'
+import aidBuilderLogo from '../../../assets/images/logo/aid-builder-logo.png'
 import { Navbar, Dropdown, Avatar } from 'flowbite-react'
 
 
