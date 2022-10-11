@@ -1,5 +1,5 @@
 
-  ## Aid-builder-Landing Page
+  ## Aid-builder-Dashboard
 Pre templated techstack
 
  1. [tailwind](https://tailwindcss.com/)

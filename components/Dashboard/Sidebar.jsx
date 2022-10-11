@@ -13,10 +13,10 @@ import {
 } from "./icons";
 
 const menuItems = [
-  { id: 1, label: "Home", icon: HomeIcon, link: "/admin" },
-  { id: 2, label: "Manage Posts", icon: ArticleIcon, link: "/admi/posts" },
-  { id: 3, label: "Manage Users", icon: UsersIcon, link: "/admi/users" },
-  { id: 4, label: "Manage Tutorials", icon: VideosIcon, link: "/admi/tutorials" },
+  { id: 1, label: "Home", icon: HomeIcon, link: "/" },
+  { id: 2, label: "Manage Posts", icon: ArticleIcon, link: "/posts" },
+  { id: 3, label: "Manage Users", icon: UsersIcon, link: "/users" },
+  { id: 4, label: "Manage Tutorials", icon: VideosIcon, link: "/tutorials" },
 ];
 
 const Sidebar = () => {
